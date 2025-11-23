@@ -1,0 +1,5 @@
+venv/
+creditcard.csv
+__pycache__/
+.ipynb_checkpoints/
+fraud_model.pkl

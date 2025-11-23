@@ -3,7 +3,7 @@ A machine learning project that detects fraudulent credit card transactions usin
 SMOTE is used to balance the data, and Random Forest (with hyperparameter tuning) is used to build a high-performance classifier.
 # 🚀 Project Overview
 This project aims to build a robust fraud detection system that can help identify potential fraudulent transactions:
-# Key Features
+ # Key Features
 - Complete Data preprocessing
 - Handling missing values
 - Exploratory Data Analysis (EDA)
@@ -13,7 +13,7 @@ This project aims to build a robust fraud detection system that can help identif
 - Hyperparameter tuning
 - Model saving using joblib
 - Full evaluation metrics: Accuracy, Precision, Recall, F1 Score, etc.
-  # 📂 Project Structure
+# 📂 Project Structure
   credit-card-fraud-detection/
 - ├── fraud_detection.ipynb
 - ├── fraud_model.pkl (ignored)
@@ -21,7 +21,7 @@ This project aims to build a robust fraud detection system that can help identif
 - ├── README.md
 - └── venv/ (ignored)
 - └── creditcard.csv (ignored)
-  # 🧠 Machine Learning Workflow
+# 🧠 Machine Learning Workflow
 - Load the dataset
 - Data Cleaning
 - Exploratory Data Analysis
@@ -31,7 +31,7 @@ This project aims to build a robust fraud detection system that can help identif
 - Hyperparameter tuning
 - Model evaluation
 - Save the final model
-  # 📊 Model Performance
+# 📊 Model Performance
   Best Model:  Random Forest + SMOTE + Hyperparameter Tuning
 - Accuracy: 99.92%
 - Recall (Fraud class): 86.70%
@@ -47,7 +47,7 @@ This project aims to build a robust fraud detection system that can help identif
 - Scikit-learn
 - Imbalanced-learn (SMOTE)
 - Joblib
- # 👇 How to Run This Project
+# 👇 How to Run This Project
  - Clone the repo:
    git clone https://github.com/<your-username>/credit-card-fraud-detection.git
 - Install dependencies:
@@ -55,7 +55,7 @@ This project aims to build a robust fraud detection system that can help identif
 - Open the notebook:
   jupyter notebook
 - Run all cells.
-  # 💾 Saving & Loading the Model
+# 💾 Saving & Loading the Model
  # Save model
 joblib.dump(best_model, "fraud_model.pkl")
  # Load model

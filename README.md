@@ -16,7 +16,7 @@ This project aims to build a robust fraud detection system that can help identif
 # 📂 Project Structure
   credit-card-fraud-detection/
 - ├── fraud_detection.ipynb
-- ├── fraud_model.pkl (ignored)
+- ├── fraud_model.pkl 
 - ├── requirements.txt
 - ├── README.md
 - └── venv/ (ignored)
@@ -48,12 +48,12 @@ This project aims to build a robust fraud detection system that can help identif
 - Imbalanced-learn (SMOTE)
 - Joblib
 # 👇 How to Run This Project
- - Clone the repo:
-   git clone https://github.com/<your-username>/credit-card-fraud-detection.git
+ - Clone this repository:
+   git clone https://github.com/EmanKhalid01/credit-card-fraud-detection.git
 - Install dependencies:
   pip install -r requirements.txt
 - Open the notebook:
-  jupyter notebook
+  Jupyter notebook
 - Run all cells.
 # 💾 Saving & Loading the Model
  # Save model

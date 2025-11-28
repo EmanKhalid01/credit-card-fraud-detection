@@ -48,11 +48,11 @@ This project aims to build a robust fraud detection system that can help identif
 - Imbalanced-learn (SMOTE)
 - Joblib
 # 👇 How to Run This Project
- - Clone this repository:
+ - Clone this repository:<br>
    git clone https://github.com/EmanKhalid01/credit-card-fraud-detection.git
-- Install dependencies:
+- Install dependencies:<br>
   pip install -r requirements.txt
-- Open the notebook:
+- Open the notebook:<br>
   Jupyter notebook
 - Run all cells.
 # 💾 Saving & Loading the Model
